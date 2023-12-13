@@ -2,8 +2,9 @@ package ucu.apps.edu.task3;
 
 import lombok.Builder;
 
+
+@Builder
 public class CompanyData {
-    @Builder
     private String domain;
     private String description;
     private String logo;
